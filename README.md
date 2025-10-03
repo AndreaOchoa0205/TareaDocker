@@ -10,13 +10,14 @@ NOTA: se versiona carpeta volumen ya que al probar el proyecto se genera. Al fin
 
 # ¿Como ejecutamos este proyecto?
 1. Clonamos el repositorio
+   
    git clone https://github.com/AndreaOchoa0205/TareaDocker.git
 
-2. Contruimos y levantamos el contenedor con Docker Compose
+3. Contruimos y levantamos el contenedor con Docker Compose
 
       docker-compose up --build
 
-3. Una vez hagamos el paso 2, abrimos nuestro navegador en:
+4. Una vez hagamos el paso 2, abrimos nuestro navegador en:
 
    http://localhost:3000
 
