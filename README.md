@@ -15,7 +15,7 @@ NOTA: se versiona carpeta volumen ya que al probar el proyecto se genera. Al fin
 
 3. Contruimos y levantamos el contenedor con Docker Compose
 
-      docker-compose up --build
+      docker compose up --build
 
 4. Una vez hagamos el paso 2, abrimos nuestro navegador en:
 
