@@ -28,15 +28,3 @@ NOTA: se versiona carpeta volumen ya que al probar el proyecto se genera. Al fin
 
 Por ultimo, en el directorio donde tienes el repositorio clonado debera de generarse una carpeta llamada volumen, en esa carpeta encontrara un archivo de salida llamado output que contendra el mensaje que viste desde el navegador.
 
-
-# Estructura del proyecto
-
-TareaDocker/
-│
-├── docker-compose.yml
-├── Dockerfile
-├── .dockerignore
-├── app/
-│   ├── index.js
-│   ├── package.json
-└── volumen/       # Carpeta montada como volumen, esa carpeta es la que se va a generar, dentro de esta carpeta se encontrará el archivo output.txt
