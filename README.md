@@ -4,10 +4,11 @@ Este proyecto contiene una sencilla aplicación hecha en Node.js la cual ejecuta
 
 NOTA: se versiona carpeta volumen ya que al probar el proyecto se genera. Al final esta carpeta se generara cuando se monte el proyecto
 
-Requisitos
-* Docker
+# Requisitos
+* Tener Docker instalado
+* Tener git instalado
 
-¿Como ejecutamos este proyecto?
+# ¿Como ejecutamos este proyecto?
 1. Clonamos el repositorio
    git clone https://github.com/AndreaOchoa0205/TareaDocker.git
 
@@ -27,7 +28,7 @@ Requisitos
 Por ultimo, en el directorio donde tienes el repositorio clonado debera de generarse una carpeta llamada volumen, en esa carpeta encontrara un archivo de salida llamado output que contendra el mensaje que viste desde el navegador.
 
 
-ESTRUCTURA DEL PROYECTO
+# Estructura del proyecto
 
 TareaDocker/
 │
