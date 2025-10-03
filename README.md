@@ -11,4 +11,14 @@ Requisitos
 1. Clonamos el repositorio
    git clone https://github.com/AndreaOchoa0205/TareaDocker.git
 
-   
+2. Contruimos y levantamos el contenedor con Docker Compose
+
+      docker-compose up --build
+
+3. Una vez hagamos el paso 2, abrimos nuestro navegador en:
+
+   http://localhost:3000
+
+   Como resultado deberás de ver lo siguiente:
+   <img width="335" height="122" alt="image" src="https://github.com/user-attachments/assets/647cacdb-a27f-4e45-8686-f1765f52a4a1" />
+
