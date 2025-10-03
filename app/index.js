@@ -11,7 +11,7 @@ fs.writeFileSync(outputPath, `Mensaje: ${message}\n`, { flag: 'a' });
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end(`${message}\n(Revisa el archivo generado en la carpeta volumen)\n`);
+  res.end(`${message}\n(Revisa el archivo en la carpeta volumen)\n`);
 });
 
 server.listen(port, () => {
