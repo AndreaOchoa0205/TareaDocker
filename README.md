@@ -24,3 +24,17 @@ Requisitos
    
    <img width="335" height="122" alt="image" src="https://github.com/user-attachments/assets/647cacdb-a27f-4e45-8686-f1765f52a4a1" />
 
+Por ultimo, en el directorio donde tienes el repositorio clonado debera de generarse una carpeta llamada volumen, en esa carpeta encontrara un archivo de salida llamado output que contendra el mensaje que viste desde el navegador.
+
+
+ESTRUCTURA DEL PROYECTO
+
+TareaDocker/
+│
+├── docker-compose.yml
+├── Dockerfile
+├── .dockerignore
+├── app/
+│   ├── index.js
+│   ├── package.json
+└── volumen/       # Carpeta montada como volumen, esa carpeta es la que se va a generar, dentro de esta carpeta se encontrará el archivo output.txt
